@@ -11,8 +11,8 @@ void setup() {
 }
 
 void loop() {
-  int deger=digitalRead(sensorPin);
-  if(deger==HIGH)
+  int value=digitalRead(sensorPin);
+  if(value==HIGH)
     {
       digitalWrite(buzzerPin,HIGH);
       digitalWrite(ledPin,HIGH);
